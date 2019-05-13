@@ -1,0 +1,22 @@
+.result{
+  margin: 0 50px 0 50px;
+  padding-top: 20px;
+  border-top: 3px solid #ddd;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  -ms-align-items: baseline;
+  align-items: center;
+
+  em{
+    font-weight: bold;
+  }
+
+  div{
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+}

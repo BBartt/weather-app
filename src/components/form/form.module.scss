@@ -1,0 +1,30 @@
+.form{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.input,
+.btn{
+  margin: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  background-color: #fff;
+  transition: .3s;
+  outline: none;
+}
+
+.input{
+  width: 30%;
+}
+
+.btn{
+  cursor: pointer;
+
+  &:hover{
+    background-color: #000;
+    color: white;
+    border-color: black;
+  }
+}
